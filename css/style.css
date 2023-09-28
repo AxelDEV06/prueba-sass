@@ -1,0 +1,44 @@
+/*IMPORTS ESTILOS*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+}
+
+/*IMPORT PAGES*/
+/*INDEX RAIZ*/
+.box1 {
+  width: 80%;
+  height: 800px;
+  border: 2px dotted rgb(93, 253, 0);
+}
+.box1 .h1 h1 {
+  color: aqua;
+  font: 500 25px "tahoma";
+}
+.box1 .container img {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.box1 p {
+  position: absolute;
+  bottom: 0;
+  color: #0326ec;
+}
+
+/*PAGE CONTACTO*/
+.box2 {
+  width: 50%;
+  height: 200px;
+  border: 1px solid rgb(145, 255, 0);
+}
+
+/*PAGE IMAGENES*/
+.box3 {
+  width: 50%;
+  height: 200px;
+  border: 1px solid rgb(9, 255, 0);
+}
+
+/*# sourceMappingURL=style.css.map */

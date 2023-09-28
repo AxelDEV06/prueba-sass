@@ -1,0 +1,26 @@
+$color-principal: #0326ec;
+$border-style: 2px dotted rgb(93, 253, 0);
+$fuente-titulos: 500 25px "tahoma";
+
+/*INDEX RAIZ*/
+.box1 {
+    width: 80%;
+    height: 800px;
+    border: $border-style;
+    .h1 h1 {
+        color: aqua;
+        font: $fuente-titulos;
+    }
+    .container img {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    p {
+        position: absolute;
+        bottom: 0;
+        color: $color-principal;
+    }
+}
+
+
